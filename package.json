@@ -9,6 +9,9 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "an-array-of-english-words": "^2.0.0"
+    "an-array-of-english-words": "^2.0.0",
+    "lodash": "^4.17.21",
+    "most-common-words-by-language": "^3.0.9",
+    "puppeteer": "^13.1.3"
   }
 }
