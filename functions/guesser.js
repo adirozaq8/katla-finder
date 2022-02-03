@@ -23,7 +23,7 @@ module.exports = function (answers, words) {
                         }
                     })
                 }
-                words = words.filter(word => !word.includes(letter) || isCorrectLetter)
+                words = words.filter(word => !word.includes(letter) || (isCorrectLetter && !getAllIndexes(word, letter).includes(idx)))
             } else if (_type === '1') {
                 words = words.filter(word => word.includes(letter) && !getAllIndexes(word, letter).includes(idx))
             } else if (_type === '2') {

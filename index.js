@@ -114,5 +114,5 @@ const data = {
         }
     }
 
-    await browser.close();
+    // await browser.close();
 })();
